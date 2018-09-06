@@ -8,10 +8,10 @@ namespace ExamenPrimerParcial
 {
     class Menu
     {
-        string Nombre { get; set; }
-        string Identificador { get; set; }
-        int HoraInicio { get; set; }
-        int HoraFin { get; set; }
+        public string Nombre { get; set; }
+        public string Identificador { get; set; }
+        public int HoraInicio { get; set; }
+        public int HoraFin { get; set; }
 
         List<Platillo> platillos = new List<Platillo>();
 

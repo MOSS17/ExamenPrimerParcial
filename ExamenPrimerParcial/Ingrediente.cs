@@ -8,8 +8,8 @@ namespace ExamenPrimerParcial
 {
     class Ingrediente
     {
-        string Nombre { get; set; }
-        string Identificador { get; set; }
+        public string Nombre { get; set; }
+        public string Identificador { get; set; }
 
         public Ingrediente()
         {
