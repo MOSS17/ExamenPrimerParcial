@@ -15,6 +15,11 @@ namespace ExamenPrimerParcial
 
         List<Ingrediente> ingredientes = new List<Ingrediente>();
 
+        public Platillo()
+        {
+            Nombre = "Nuevo Platillo";
+        }
+
         public Platillo(string identificador, string nombre, string descripcion, float precio)
         {
             Identificador = identificador;

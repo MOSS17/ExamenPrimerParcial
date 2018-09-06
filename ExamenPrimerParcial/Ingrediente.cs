@@ -11,6 +11,11 @@ namespace ExamenPrimerParcial
         string Nombre { get; set; }
         string Identificador { get; set; }
 
+        public Ingrediente()
+        {
+            Nombre = "Nuevo Ingrediente";
+        }
+
         public Ingrediente(string nombre, string identificador)
         {
             Nombre = nombre;
